@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Ankieta</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <h1>Zapisz się na moje szkolenie</h1>
+    </header>
+
     <form action="https://formspree.io/mysliwy.dorota@gmail.com" method="POST" >
-    
-        <input type="text" name="first-name" required placeholder="imie i nazwisko">  <p></p>
-        <input type="email" name="mail" required placeholder="adres mail"> <p></p>
-        <input type="tel" name="phone" placeholder="numer telefonu"><p></p>
-        <textarea name="messege" placeholder="wpisz wiadomosc"></textarea>
-        <input type="submit">
+        <label for="name">Imię:</label>
+        <input type="text" name="name" id="name" required placeholder="imie">
+        <br />
+        <label for="lastname">Nazwisko:</label>
+        <input type="text" name="lastname" id="lastname" required placeholder="Nazwisko">
+        <br />
+        <label for="mail">Adres e-mail:</label>
+        <input type="email" name="_replyto" id="mail" required placeholder="adres e-mail">
+        <br />
+        <label for="phone">Numer telefonu:</label>
+        <input type="tel" name="phone" id="phone" required placeholder="Numer telefonu">
+        <br />
+        <label for="city">Wybierz miasto:</label>
+        <select name="city" id="city" >
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select>
+        <br />
+        <p>Wybierz płeć:</p>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Mężczyzna</label>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Kobieta</label>
+        <input type="radio" name="gender" value="nomale" id="nomale"><label for="nomale">brak odpowiedzi</label>
+        <br /><br />
+        <label for="message">Wpisz uwagi: </label>
+        <textarea name="message" id="message"></textarea>
+        <br />
+        <label for="agreement">Wyrażam zgodę na przetwarzanie moich danych osobowych.</label>
+        <input type="checkbox" id="agreement" name="agreement">
+        <br /><br />
+        <input type="submit" value="wyślij zgłoszenie">
+
+
+   
     </form>
 </body>
 </html>
