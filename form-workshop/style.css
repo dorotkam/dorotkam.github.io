@@ -1,0 +1,81 @@
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(63, 4, 63);color: #ffffff;
+    padding: 10px;
+    }
+
+label:not([for*="male"]),p {
+    display: block;
+    padding: 6px;
+    font-size: 20px;
+}
+input:not([type="radio"]),
+textarea    {
+    background: #e1c1ee;
+    color:rgb(63, 4, 63);
+    padding: 10px;
+    margin-left: 10px;
+    width: 300px;
+    border-style: outset;
+    border-color: #c157eb;
+}
+select {
+    background: #e1c1ee;
+    color:rgb(63, 4, 63);
+    padding: 10px;
+    margin-left: 10px;
+    width: 324px;
+    border-style: outset;
+    border-color: #c157eb;
+}
+
+textarea {
+        height: 100px;
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background: #d49beb; 
+    color:rgb(63, 4, 63);
+    border-style: outset;
+    border-color: #b636e9;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+}
+input[type=submit]:hover {
+    background: #270236; 
+    color:rgb(211, 210, 211);
+    border-style: outset;
+    border-color: #c157eb;
+    height: 50px;
+    width: 150px;
+}
+input[type=checkbox] {
+    width: 10%;
+    transform: scale(1.5);
+    }
+    
+input:hover,
+textarea:hover,
+select:hover
+{
+    border-style: outset;
+    border:3px solid rgb(47, 7, 122);
+}
+
+label[for*="male"] {
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+}
+
+label[for*="male"]:hover {
+    color: #b636e9;
+    font-size: 20px;
+}

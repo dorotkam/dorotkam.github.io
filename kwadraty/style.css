@@ -1,0 +1,134 @@
+
+.kwadrat-czerwony {
+    width: 150px;
+    height:150px;
+    background-color: red;
+    position: fixed; left: 50px; top: 50px;
+}
+.kolo-rozowy{
+    width: 100px;
+	height: 100px;
+	background-color: pink;
+    border-radius: 100%;
+    border: solid 1px black;
+    position: absolute; left: 25px; top:25px;
+}
+
+.kwadrat-niebieski {
+    width: 150px;
+    height:150px;
+    background-color: blue;
+    position: fixed; left: 210px; top: 50px;
+}
+.kolo-szary{
+    width: 100px;
+	height: 100px;
+	background-color: gray;
+    border-radius: 100%;
+    border: solid 1px black;
+    position: absolute; left: 25px; top:25px;
+}
+
+.kwadrat-zielony{
+    width: 150px;
+    height:150px;
+    background-color: green;
+    position: fixed; left: 370px; top: 50px;
+}
+.kolo-fioletowy{
+    width: 100px;
+	height: 100px;
+	background-color: violet;
+    border-radius: 100%;
+    border: solid 1px black;
+    position: absolute; left: 25px; top:25px;
+}
+
+.kwadrat-zolty{
+    width: 150px;
+    height:150px;
+    background-color: yellow;
+    position: fixed; left: 50px; top: 210px;
+}
+.kolo-zielony{
+    width: 100px;
+	height: 100px;
+	background-color: green;
+    border-radius: 100%;
+    border: solid 1px black;
+    position: absolute; left: 25px; top:25px;
+}
+
+.kwadrat-czarny{
+    width: 150px;
+    height:150px;
+    background-color: black;
+    position: fixed; left: 210px; top: 210px;
+}
+.kolo-czerwony{
+    width: 100px;
+	height: 100px;
+	background-color: red;
+    border-radius: 100%;
+    border: solid 1px black;
+    position: absolute; left: 25px; top:25px;
+}
+
+.kwadrat-pomaranczowy{
+    width: 150px;
+    height:150px;
+    background-color: orange;
+    position: fixed; left: 370px; top: 210px;
+}
+.kolo-niebieski{
+    width: 100px;
+	height: 100px;
+	background-color:blue;
+    border-radius: 100%;
+    border: solid 1px black;
+    position: absolute; left: 25px; top:25px;
+}
+
+.kwadrat-fioletowy{
+    width: 150px;
+    height:150px;
+    background-color:violet;
+    position: fixed; left: 50px; top: 370px;
+}
+.kolo-pomaranczowy{
+    width: 100px;
+	height: 100px;
+	background-color: orange;
+    border-radius: 100%;
+    border: solid 1px black;
+    position: absolute; left: 25px; top:25px;
+}
+
+.kwadrat-szary{
+    width: 150px;
+    height:150px;
+    background-color: gray;
+    position: fixed; left: 210px; top: 370px;
+}
+.kolo-zolty{
+    width: 100px;
+	height: 100px;
+	background-color: yellow;
+    border-radius: 100%;
+    border: solid 1px black;
+    position: absolute; left: 25px; top:25px;
+}
+.kwadrat-rozowy{
+    width: 150px;
+    height:150px;
+    background-color: pink;
+    position: fixed; left: 370px; top: 370px;
+}
+.kolo-czarny{
+    width: 100px;
+	height: 100px;
+    background-color: black;
+    border-radius: 100%;
+    border: solid 1px black;
+    position: absolute; left: 25px; top:25px;
+}
