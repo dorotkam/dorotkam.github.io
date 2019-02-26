@@ -1,0 +1,15 @@
+.clock {
+    height: 70vh;
+    width: 70vh;
+    background-color: #5e3685;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    font-size: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.clock-count {
+
+}
+
