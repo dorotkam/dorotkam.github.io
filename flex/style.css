@@ -5,8 +5,9 @@ body {
   }
   header {
     background:red;
-    height: 12vh;
-    line-height: 12vh;
+    height: 15vh;
+    line-height: 15vh;
+    margin-top: -5vh;
   }
 
 section {
@@ -16,6 +17,7 @@ section {
 aside {
   flex: 20%;
   font-size: 6vh;
+  height: 60vh;
 }
 #left {
   background: green;
@@ -26,6 +28,10 @@ aside {
 article {
   flex: 60%;
   background: blue;
+}
+p {
+    padding-left: 2px;
+    padding-right: 2px;
 }
 footer {
     background: violet;
