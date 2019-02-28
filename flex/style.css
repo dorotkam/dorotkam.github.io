@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     color: white;
     text-align: center;
   }
@@ -15,7 +16,7 @@ section {
   display: flex;
 }
 aside {
-  flex: 20%;
+  flex: 18%;
   font-size: 6vh;
   height: 60vh;
 }

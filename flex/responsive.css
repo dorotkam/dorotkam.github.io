@@ -1,4 +1,4 @@
-@media (max-width: 992px) 
+@media all and (max-width: 992px) 
 {
     #left {
         flex: 100%;
@@ -6,11 +6,13 @@
         }
     }
 
-@media (max-width: 768px) 
+@media all and (max-width: 768px) 
 {
     section {
         flex-direction: column;
              }
+
+    }
     p{
         padding-left: 6px;
         padding-right: 12px;
