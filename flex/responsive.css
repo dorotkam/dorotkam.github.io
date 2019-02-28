@@ -4,6 +4,9 @@
         flex: 100%;
         order: 3;
         }
+    aside {
+        height: 24vh;
+    }
     }
 
 @media all and (max-width: 768px) 
@@ -11,7 +14,14 @@
     section {
         flex-direction: column;
              }
-
+    #right {
+        order: 3;
+    }
+    aside {
+        flex: 60%;
+    }
+    article {
+        flex: 38%;
     }
     p{
         padding-left: 6px;
