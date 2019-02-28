@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    color: white;
+    text-align: center;
+  }
+  header {
+    background:red;
+    height: 12vh;
+    line-height: 12vh;
+  }
+
+section {
+  flex-wrap: wrap;
+  display: flex;
+}
+aside {
+  flex: 20%;
+  font-size: 6vh;
+}
+#left {
+  background: green;
+}
+#right {
+  background: pink;
+}
+article {
+  flex: 60%;
+  background: blue;
+}
+footer {
+    background: violet;
+    height: 12vh;
+    line-height: 12vh;
+    font-size: 6vh;
+    margin-top:-6vh;
+      
+  }
