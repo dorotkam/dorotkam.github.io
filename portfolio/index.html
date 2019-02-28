@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moje Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+                <h1>front end developer</h1>
+                <hr>
+                <p>HTML <span>&#9679;</span> CSS <span>&#9679;</span> JavaScript </p>
+                <button class="button"><a href="">dowiedz sie wiecej</a></button>
+        </div>
+    </header>
+    <nav id="main-nav">
+            <label class="menu-label" for="menu"> Menu</label>
+            <input id="menu" name="menu" type="checkbox">   
+            <ul>
+                    <li><a href="#omnie">o mnie</a></li>
+                    <li><a href="#gallery">portfolio</a></li>
+                    <li><a href="#contact">kontakt</a></li>
+            </ul> 
+    </nav>
+    <section id="omnie">
+        <h2>o mnie</h2>
+        <hr></hr>
+        <figure>
+                <img id="omniezd" src="img/about.jpg"
+                     alt="omnie">
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eum ducimus, quaerat architecto facilis explicabo doloribus blanditiis provident doloremque dolorem fuga? Repellendus cum excepturi aspernatur optio officiis possimus impedit provident!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eveniet aliquam accusamus sequi excepturi impedit distinctio similique commodi assumenda! Quaerat inventore ipsum dicta consectetur nulla totam enim pariatur, reprehenderit eligendi!</p>
+            
+            <button class="button"><a href="">moje portfolio</a></button>
+    </section>
+        <section class="gallery" id="gallery">
+            <h2>portfolio</h2>
+                <hr>
+                <div class="gallery-inner">
+            <figure id="photo-1">
+                <img src="img/portfolio/photo-1.jpg" alt="photo1"> 
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure id="photo-2">
+                <img src="img/portfolio/photo-2.jpg" alt="photo2"> 
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure id="photo-3">
+                <img src="img/portfolio/photo-3.jpg" alt="photo3"> 
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure id="photo-4">
+                <img src="img/portfolio/photo-4.jpg" alt="photo4"> 
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure id="photo-5">
+                <img src="img/portfolio/photo-5.jpg" alt="photo5"> 
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure id="photo-6">
+                <img src="img/portfolio/photo-6.jpg" alt="photo6">
+                <figcaption>projekt</figcaption> 
+            </figure>
+            <figure id="photo-7">
+                <img src="img/portfolio/photo-7.jpg" alt="photo7"> 
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure id="photo-8">
+                <img src="img/portfolio/photo-8.jpg" alt="photo8"> 
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure id="photo-9">
+                <img src="img/portfolio/photo-9.jpg" alt="photo9"> 
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure id="photo-10">
+                <img src="img/portfolio/photo-10.jpg" alt="photo10"> 
+                <figcaption>projekt</figcaption>
+            </figure>
+            <figure id="photo-11">
+                <img src="img/portfolio/photo-11.jpg" alt="photo11">
+                <figcaption>projekt</figcaption>
+            </figure> 
+            <figure id="photo-12">
+                <img src="img/portfolio/photo-12.jpg" alt="photo12"> 
+                <figcaption>projekt</figcaption>
+            </figure>
+        </div>
+     </section>
+     <section class="contact" id="contact">
+        <h2>kontak</h2>
+        <hr>
+        <form action="https://formspree.io/mysliwy.dorota@gmail.com" method="POST" ></form>
+          <div class="contact-inner">
+            <input type="text" name="name" id="name" required placeholder="Imię">
+            <input type="email" name="_replyto" id="mail" required placeholder="Adres e-mail">
+        <textarea name="message" id="message" required placeholder="Wpisz wiadomość"></textarea>
+        </div>
+        <button class="button"><a href="">wyślij wiadomość</a></button>
+    </form>
+    <div id="icon">
+    <a href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+    <a href=""><i class="fab fa-twitter fa-3x"></i></a>
+    <a href=""><i class="fab fa-instagram fa-3x"></i></a>
+    <a href=""><i class="fab fa-youtube fa-3x"></i></a>
+    <div>
+    </section>
+    <footer>
+        <p>Copyright&copy Akademia108 -Szkoła Programowania</p>
+    </footer>
+</body>
+</html>

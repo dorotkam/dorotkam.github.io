@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+#header {
+    background-image: url("img/header-background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#header h1 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    color: white;
+}
+span  {
+    color: #1ac056;
+}
+#header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+#main-nav {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+}
+#main-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+#main-nav ul li a {
+    color: #1ac056;
+    text-decoration: none;
+}
+#about{
+ text-align: center;
+ background-color: #f9fcfe;
+ padding-top: 60px;
+}
+#about-inner  {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex-direction: row;
+
+}
+#about figure {
+    flex-basis: 50%;
+    text-align: center;
+    margin: 0;
+}
+#about figure img {
+    width: 50%;
+
+}
+#about-text {
+    flex-basis: 50%;
+    text-align: justify;
+}
+#skills {
+    text-align: center;
+    padding-top: 60px;
+}
+#skills-inner {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+#skills-inner p {
+    flex-basis: 80%;
+}
