@@ -4,9 +4,7 @@
         flex: 100%;
         order: 3;
         }
-    aside {
-        height: 24vh;
-    }
+   
     }
 
 @media all and (max-width: 768px) 
